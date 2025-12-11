@@ -1,0 +1,193 @@
+ nav h1 {
+    font-size: 2rem;
+} 
+
+@media (max-width: 1024px) {
+
+   nav h1 {
+    font-size: 1.5rem;
+} 
+    nav .navbar-nav {
+        align-items: start !important;
+    }
+}
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: white;
+    }
+
+    /* Navbar */
+    nav .nav-item:hover {
+      color: red !important;
+    }
+
+    nav .nav-link:hover {
+      color: red !important;
+    }
+
+    
+    .recipe-img {
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Tabs */
+    .tab-btn {
+      cursor: pointer;
+      color: #555;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+    }
+
+
+    ::-webkit-scrollbar-thumb {
+    background-color: #ff6200; 
+    border-radius: 10px; 
+    border: 3px solid #f1f1f1; 
+}
+    div::-webkit-scrollbar {
+      
+    background: rgb(139, 139, 139); 
+}
+
+    .tab-btn.active {
+      border-bottom: 3px solid #ff6f00;
+      color: #ff6f00 !important;
+    }
+
+    
+    #warningBox {
+      background: #fff0f0;
+      border-left: 6px solid #ff4b4b;
+      padding: 14px 18px;
+      border-radius: 10px;
+      margin-bottom: 18px;
+      display: none;
+      color: #8a1f1f;
+    }
+
+    #warningBox i {
+      color: #df2b2b;
+      margin-right: 8px;
+    }
+
+    
+    #nut-list .nut-card {
+      background: #f6f8fa;
+      border-radius: 12px;
+      padding: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    }
+
+    .nut-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .nut-icon {
+      width: 44px;
+      height: 44px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      background: #fff;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.02) inset;
+      font-size: 18px;
+    }
+
+    .nut-label { font-weight: 600; color: #333; margin-right: 10px; }
+
+    .c-orange { background: #fff0e6; color:#ff6f00; }
+    .c-blue   { background: #eaf4ff; color:#2f80ed; }
+    .c-yellow { background: #fff8e6; color:#f2c94c; }
+    .c-pink   { background: #ffeef0; color:#ff6b86; }
+    .c-green  { background: #e9fff0; color:#27ae60; }
+    .c-magenta{ background: #fbeef8; color:#d63384; }
+
+    .list-group-item i { color: #ff8a00; margin-right: 10px; }
+
+    
+    #try-btn {
+      background: linear-gradient(to right, #ff9800, #f44336);
+      border: none;
+    }
+
+    #try-btn:hover {
+      opacity: 0.95;
+    }
+
+    
+    @media (max-width: 991px) {
+      .tab-btn { font-size: 15px; }
+
+      
+
+
+      
+    }
+
+    .list-group-item  span{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: orangered;
+        display: inline-block;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 10px;
+        padding-top: 2px;
+        margin-right: 10px;
+    }
+
+    .list-group2-item  span{
+        width: 40px;
+        height: 40px;
+        border-radius: 10%;
+        background-color: orangered;
+        display: inline-block;
+        text-align: center;
+        color: whitesmoke;
+        font-size: 18px;
+        padding-top: 2px;
+        margin-right: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+
+    .list-grou-item  span {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: orangered;
+        display: inline-block;
+        /* text-align: center; */
+      
+        /* font-size: 10px; */
+        /* padding-top: 2px; */
+        margin-right: 10px;
+        margin-top: 10px;
+        
+    }
+
+    .list-grou-item  span svg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        color: orangered;
+        display: inline-block;
+        text-align: center;
+      
+        /* font-size: 10px; */
+        /* padding-top: 2px; */
+        margin-right: 10px;
+        
+    }
